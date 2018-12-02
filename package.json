@@ -1,0 +1,22 @@
+{
+  "name": "vue-browser-component",
+  "version": "0.0.1",
+  "description": "Browser holder component for Vue",
+  "main": "src/browser.vue",
+  "repository": "https://github.com/doriandrn/vue-browser-component.git",
+  "author": "Dorian Tudorache <dorian.snaz@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "postcss": "^7.0.6",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-short": "^5.0.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "rupture": "^0.7.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.5.17",
+    "webpack": "^4.26.1"
+  }
+}
