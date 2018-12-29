@@ -74,7 +74,7 @@ browser = {
     display flex
     justify-content center
 
-    +above(xl)
+    @media screen and (min-width: 768px)
       border-radius 6px
 
     > *
