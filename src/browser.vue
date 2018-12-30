@@ -33,7 +33,7 @@ browser = {
   width 100%
   overflow hidden
   width 100%
-  padding-bottom 66%
+  padding-bottom 66% // adjust this for ratio
 
   .url
     position absolute

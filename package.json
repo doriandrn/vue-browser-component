@@ -9,8 +9,15 @@
   "private": false,
   "scripts": {
     "dev": "vue serve src/browser.vue",
-    "build": "vue build src/browser.vue --target lib --name index"
+    "build": "vue build src/browser.vue --target lib --name index",
+    "git-deploy": "git subtree push --prefix dist origin gh-pages"
   },
+  "browserslist": [
+    "ie >= 11",
+    "safari > 7",
+    "> 1%",
+    "last 12 versions"
+  ],
   "devDependencies": {
     "autoprefixer": "^9.4.3",
     "css-loader": "^2.1.0",
