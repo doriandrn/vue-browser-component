@@ -2,14 +2,14 @@
   "name": "vue-browser-component",
   "version": "0.0.1",
   "description": "Browser holder component for Vue",
-  "main": "dist/vue-browser-component.umd.min.js",
+  "main": "dist/index.umd.min.js",
   "repository": "https://github.com/doriandrn/vue-browser-component.git",
   "author": "Dorian Tudorache <dorian.snaz@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
     "serve": "vue serve src/browser.vue",
-    "build": "vue build src/browser.vue --target lib --name vue-browser-component"
+    "build": "vue build src/browser.vue --target lib --name index"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
