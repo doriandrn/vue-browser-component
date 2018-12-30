@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["vue-browser-component"] = factory();
-	else
-		root["vue-browser-component"] = factory();
-})((typeof self !== 'undefined' ? self : this), function() {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -665,5 +656,4 @@ exports.push([module.i, ".browser{background:#e2e2e1;position:relative;border-ra
 /***/ })
 
 /******/ })["default"];
-});
-//# sourceMappingURL=vue-browser-component.umd.js.map
+//# sourceMappingURL=index.common.js.map
