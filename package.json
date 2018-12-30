@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "serve": "vue serve src/browser.vue",
-    "build": "vue build src/browser.vue --target wc --name vue-browser-component"
+    "build": "vue build src/browser.vue --target lib --name vue-browser-component"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
