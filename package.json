@@ -2,19 +2,18 @@
   "name": "vue-browser-component",
   "version": "0.0.1",
   "description": "Browser holder component for Vue",
-  "main": "dist/index.js",
+  "main": "dist/vue-browser-component.js",
   "repository": "https://github.com/doriandrn/vue-browser-component.git",
   "author": "Dorian Tudorache <dorian.snaz@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "webpack"
+    "serve": "vue serve src/browser.vue",
+    "build": "vue build src/browser.vue --target wc --name vue-browser-component"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
-    "@webpack-cli/init": "^0.1.2",
     "autoprefixer": "^9.4.3",
-    "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-preset-env": "^1.7.0",
@@ -33,8 +32,6 @@
     "uglifyjs-webpack-plugin": "^2.1.1",
     "vue": "^2.5.17",
     "vue-loader": "^15.4.2",
-    "vue-template-compiler": "2.5.17",
-    "webpack": "^4.28.2",
-    "webpack-cli": "^3.1.2"
+    "vue-template-compiler": "2.5.17"
   }
 }
