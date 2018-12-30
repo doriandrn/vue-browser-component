@@ -131,7 +131,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
 
 // CONCATENATED MODULE: ./src/browser.vue?vue&type=template&id=e57d968c&lang=pug&
 
-// CONCATENATED MODULE: /Users/dorian/.npm-packages/lib/node_modules/@vue/cli-service-global/node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib??ref--12-1!/Users/dorian/.npm-packages/lib/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/browser.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: /Users/dorian/.npm-packages/lib/node_modules/@vue/cli-service-global/node_modules/thread-loader/dist/cjs.js!/Users/dorian/.npm-packages/lib/node_modules/@vue/cli-service-global/node_modules/babel-loader/lib??ref--12-1!/Users/dorian/.npm-packages/lib/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/browser.vue?vue&type=script&lang=js&
 //
 //
 //

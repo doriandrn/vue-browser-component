@@ -12,8 +12,14 @@ yarn add @doriandrn/vue-browser-component // or ofc, npm i @doriandrn/vue-browse
 ```
 
 ```js
-// vue
+// vue / nuxt
 import browser from 'vue-browser-component'
+
+/**
+ * Hook in the styles
+ * As an alternative, this can go inside the <style> tag of a SFC
+ */
+require('vue-browser-component/dist/index.css')
 
 export default {
   components: {

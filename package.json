@@ -8,15 +8,11 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "serve": "vue serve src/browser.vue",
+    "dev": "vue serve src/browser.vue",
     "build": "vue build src/browser.vue --target lib --name index"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
     "autoprefixer": "^9.4.3",
-    "babel-loader": "^8.0.4",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "babel-preset-env": "^1.7.0",
     "css-loader": "^2.1.0",
     "postcss": "^7.0.6",
     "postcss-loader": "^3.0.0",
@@ -25,11 +21,9 @@
     "precss": "^4.0.0",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
-    "rupture": "^0.7.1",
     "style-loader": "^0.23.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "uglifyjs-webpack-plugin": "^2.1.1",
     "vue": "^2.5.17",
     "vue-loader": "^15.4.2",
     "vue-template-compiler": "2.5.17"
