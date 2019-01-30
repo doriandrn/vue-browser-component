@@ -1,6 +1,6 @@
 {
   "name": "vue-browser-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser holder component for Vue",
   "main": "dist/index.umd.min.js",
   "repository": "https://github.com/doriandrn/vue-browser-component.git",
