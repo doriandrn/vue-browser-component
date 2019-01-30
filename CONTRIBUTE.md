@@ -1,4 +1,4 @@
-# Contribute
+# Contributions Guide
 
 This is a __step by step__ guide on how to bring in a contribution / improvement to this component.
 

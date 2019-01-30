@@ -8,7 +8,7 @@ A __browser-like window container__ component for Vue that's ready to showcase a
 ## Install
 
 ```sh
-yarn add @doriandrn/vue-browser-component
+yarn add vue-browser-component
 ```
 
 ## Usage
